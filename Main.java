@@ -36,7 +36,6 @@ public class Main {
         // 4. Montando o Carro inteiro
         Conjunto carro = new Conjunto("Carro");
         carro.adicionar(chassi);
-        carroceria.adicionar(carroceria); // Ops, na verdade é carro.adicionar(carroceria);
         carro.adicionar(carroceria);
 
         // 5. Calculando o peso total
